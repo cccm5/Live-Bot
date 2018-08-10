@@ -66,16 +66,16 @@ div.about {
     width: 100%;
 }
 
-div.footer-text {
-    text-align: center;
+div.copyright-text {
+    text-align: left;
     color: #FFFFFF;
-    font-size: 2vh;
+    font-size: 2vmin;
     margin: 10px;
     font-family: Arial, serif;
 }
 a.github-link {
-    text-align: center;
-    font-size: 2vh;
+    text-align: right;
+    font-size: 2vmin;
     margin: 10px;
     font-family: Arial, serif;
     color: #FFFFFF;
