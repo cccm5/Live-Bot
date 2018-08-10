@@ -1,0 +1,89 @@
+div.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #23272A;
+    height: 5%;
+}
+
+div.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 85%;
+}
+
+div.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 5vmin;
+    background-color: #7289DA;
+    height: 10%;
+}
+
+a.invite {
+    margin: 10px;
+    font-family: Arial, serif;
+}
+a.invite:link, a.invite:visited {
+    color: #FFFFFF;
+}
+a.invite:hover, a.invite:active {
+    color: #2C2F33;
+}
+
+div.header-text {
+    margin: 10px;
+    font-family: Arial, serif;
+}
+
+div.contents-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 10vmin;
+    padding: 5vmin;
+}
+
+div.content-image {
+    height: 20vh;
+}
+
+div.about {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 6vmin;
+    font-family: Arial, serif;
+    width: 100%;
+}
+
+div.footer-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2vh;
+    margin: 10px;
+    font-family: Arial, serif;
+}
+a.github-link {
+    text-align: center;
+    font-size: 2vh;
+    margin: 10px;
+    font-family: Arial, serif;
+    color: #FFFFFF;
+}
+
+a.github-link:visited, a.github-link:link {
+    color: #FFFFFF;
+}
+a.github-link:hover, a.github-link:active {
+    color: #7289DA;
+}
