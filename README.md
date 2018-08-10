@@ -8,4 +8,8 @@ If you don't want to use the public instance of the bot, found [here](https://di
 
 Live Bot is hosted for free on [Glitch](https://glitch.com), in a similar system to [this](https://anidiotsguide_old.gitbooks.io/discord-js-bot-guide/content/other-guides/hosting-on-glitchcom.html) tutorial. Live Bot is not setup to use the self-pinging system mentioned in the server - so you will need to set up some service to do it externally (or you could add it to the bot yourself). The public instance of the bot uses [Uptime Robot](https://uptimerobot.com/).
 
-You will also need to configure the client token in `.env`. You can get your own client token [from discords developer portal](https://discordapp.com/developers/applications/). Just add it after `TOKEN=` 
+You will also need to configure the client token in `.env`. You can get your own client token [from discords developer portal](https://discordapp.com/developers/applications/). Just add it after `TOKEN=`, and save the file in the root directory.
+
+```
+TOKEN=YOUR_TOKEN_HERE
+```
